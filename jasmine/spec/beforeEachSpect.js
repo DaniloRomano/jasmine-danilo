@@ -3,15 +3,12 @@ describe("Teste do beforeEach", function () {
 
     beforeEach(function () {
         contador++;
-    })
+    });
 
     it("deve incrementar o contador par a 1", function () {
         expect(contador).toEqual(1);
-    })
+    });
 
-    it("deve incrementar o contador par a 2", function () {
-        expect(contador).toEqual(2);
-    })
 
 
 })
